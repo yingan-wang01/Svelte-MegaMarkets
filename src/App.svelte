@@ -1,13 +1,14 @@
 <script lang="ts">
   import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+  import Counter from './components/Counter.svelte'
+  import MainContainer from './containers/MainContainer.svelte';
 </script>
 
 <main>
   
 
   <div class="card">
+    <MainContainer />
     <Counter />
   </div>
 
