@@ -9,7 +9,7 @@
 
   <div class="card">
     <MainContainer />
-    <Counter />
+    <!-- <Counter /> -->
   </div>
 
 </main>

@@ -14,7 +14,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -77,4 +77,72 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+
+body {
+  padding-top:10px;
+}
+
+.outerBox {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 10px 15px 39px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  border-color: white;
+}
+
+.innerbox {
+  padding: 10px;
+  width:95%;
+  margin: 15px auto;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+  border-color: white;
+
+}
+
+.displayBox {
+  overflow: auto;
+  padding-top: 10px;
+  
+}
+
+.marketBox {
+  padding: 5px;
+  width:30%;
+  margin: 5px 5px 13px 10px;
+  float:left;
+  font-size: .8em;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+  border-style: solid;
+  border-color: white;
+
+}
+
+#header {
+  text-align: center;
+  letter-spacing: .2em;
+  margin-bottom: 10px;
+}
+
+#totals {
+  line-height: 1.5em;
+}
+
+input {
+  margin: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+button {
+  padding: 3px;
+  margin: 3px;
+}
+
+span {
+  font-weight: 400;
 }

@@ -1,16 +1,13 @@
 <script>
-  
+  import { marketState } from "../store";
+
 </script>
 
 <div class="innerbox" id="totals">
-    <!-- <label htmlFor="totalCards">Total Cards: </label> -->
-    <label>Total Cards: </label>
-
-    <!-- <span id="totalCards">{props.totalCards}</span> -->
+    <label for="totalCards">Total Cards: </label>
+    <span id="totalCards">{$marketState.totalCards}</span>
     <p>
-      <!-- <label htmlFor="totalMarkets">Total Markets: </label> -->
-      <label >Total Markets: </label>
-
-      <!-- <span id="totalCards">{props.totalMarkets}</span> -->
+      <label for="totalMarkets">Total Markets: </label>
+      <span id="totalCards">{$marketState.totalMarkets}</span>
     </p>
   </div>
